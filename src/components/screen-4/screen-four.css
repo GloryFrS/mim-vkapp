@@ -1,0 +1,86 @@
+.screen-four {
+    padding-top: 22px;
+    background: white;
+}
+
+.screen-four__master-card {
+    position: relative;
+    z-index: 1;
+     width: 93.3vw;
+     padding: 30px 0 20px 15px;
+
+     /*margin-bottom: 20px;*/
+     background: #ffffff;
+     /* Тень */
+     box-shadow: 0px 10px 40px rgba(193, 195, 222, 0.25);
+     border-radius: 12px;
+ }
+
+/*.screen-four__master-card*/
+
+.screen-four__master-card .post-card__master-avatar {
+    margin-right: 5px;
+}
+
+.screen-four__master-card .post-card__stars-number {
+    margin-top: 4px;
+    margin-bottom: 13px;
+}
+
+.screen-four__master-card .post-card__props {
+    font-size: 0.85em;
+}
+
+
+
+.screen-four__text {
+    padding-top: 12px;
+    font-size: 15px;
+    line-height: 23px;
+    color: #000000;
+    word-break: break-word;
+}
+
+.screen-four .header-navigation__text {
+    margin-left: 44px;
+}
+
+.screen-four_button-review .col .button {
+    margin: 5px auto 105px;
+}
+
+.screen-four .header {
+    top: -5vh;
+}
+
+.screen-four__master-card .post-card__master-data {
+    width: 62%;
+}
+
+.screen-four__master-card .post-card__props {
+    color: #C4C4C4;
+}
+
+
+/*
+.screen-four {
+    /*overflow-y: auto;*/
+    /*-webkit-overflow-scrolling:touch;*
+}*/
+
+
+.screen-four .slider > div > div:first-child {
+    margin-left: 30px;
+}
+
+.screen-four_button-review {
+    margin-bottom: 8vh;
+}
+
+.screen-four .header {
+    top: -85px;
+}
+
+.masters-list {
+    padding-bottom: 60px;
+}

@@ -1,0 +1,47 @@
+.portfolio-photo {
+    height: 200px;
+    width: 128px;
+
+    margin: 0 6px;
+    background: #FFF6F7;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.portfolio-photo:last-child {
+    margin-right: 20px;
+}
+
+.showBigPhoto {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1051;
+
+    width: 100vw;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 1;
+
+}
+
+.showBigPhoto__close {
+    color: #FFFFFF;
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    z-index: 1052;
+}
+
+.showBigPhoto-fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    background: black;
+
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.8;
+}

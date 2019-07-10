@@ -1,0 +1,210 @@
+.screen-one {
+    /* height: calc(100vh - 88px); */
+
+    text-align: center;
+    color: white;
+}
+
+.screen-one-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: #F5908E;
+}
+/* .col-	.col-sm-	.col-md-	.col-lg-	.col-xl- */
+
+
+
+@media (max-width: 330.98px) {
+
+    .screen-one__block-fetched-user-full-name {
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .screen-one__block-greenting {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .screen-one__block-find-master {
+        margin: 35px 0;
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .screen-one__block-customer-type {
+        font-size: 13.8px;
+        line-height: 19px;
+    }
+    .screen-one__block-select {
+        margin: 14px 0;
+    }
+    .screen-one__master {
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .screen-one__master > div:first-child {
+        margin: 14px 0 0;
+    }
+    .screen-one__master > div:last-child {
+       font-size: 15.5px;
+    }
+}
+
+
+@media (min-width: 331px) and (max-width: 375.98px) {
+
+    .screen-one__block-fetched-user-full-name {
+        font-size: 1.37em;
+        line-height: 2.1em;
+    }
+    .screen-one__block-greenting {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .screen-one__block-find-master {
+        margin: 45px 0;
+        font-size: 22.3px;
+        line-height: 30px;
+    }
+    .screen-one__block-customer-type {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .screen-one__block-select {
+        margin: 18px 0;
+    }
+    .screen-one__master {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .screen-one__master > div:first-child {
+        margin: 20px 0 0;
+    }
+    .screen-one__master > div:last-child {
+       font-size: 18.5px;
+    }
+}
+
+ @media (min-width: 376px) and (max-width: 514.98px) {
+
+    .screen-one__block-fetched-user-full-name {
+        font-size: 1.58em;
+        line-height: 2.5em;
+    }
+    .screen-one__block-greenting {
+        margin-top: -8px;
+        font-size: 1.12em;
+        line-height: 1.8em;
+    }
+    .row.screen-one__block-greenting:nth-child(4) {
+        margin: 0 0 50px
+    }
+    .screen-one__block-find-master {
+        margin: 45px 0;
+        font-size: 1.55em;
+        line-height: 1.4em;
+    }
+    .screen-one__block-customer-type {
+        font-size: 1.12em;
+        line-height: 1.7em;
+    }
+    .screen-one__block-select {
+        margin: 16px 0 25px;
+    }
+    .screen-one__master {
+        font-size: 1em;
+        line-height: 1.62em;
+    }
+    .screen-one__master > div:first-child {
+        margin: 20px 0 0;
+    }
+    .screen-one__master > div:last-child {
+       font-size: 1.25em;
+    }
+ }
+
+ @media (min-width: 515px) and (max-width: 768.98px) {
+
+    .screen-one__block-fetched-user-full-name {
+        padding: 27px 0 0 0;
+        font-size: 2.1em;
+        line-height: 2.1em;
+    }
+    .screen-one__block-greenting {
+        font-size: 1.6em;
+        line-height: 1.2em;
+    }
+    .screen-one__block-find-master {
+        margin: 50px 0;
+        font-size: 2.15em;
+        line-height: 2.4em;
+    }
+    .screen-one__block-customer-type {
+        font-size: 1.53em;
+        line-height: 1.5em;
+    }
+    .screen-one__block-select {
+        margin: 21px 0 55px;
+    }
+    .screen-one__master {
+        font-size: 1.4em;
+        line-height: 1.62em;
+    }
+    .screen-one__master > div:first-child {
+        margin: 28px 0 0;
+    }
+    .screen-one__master > div:last-child {
+       font-size: 1.25em;
+    }
+ }
+
+ @media (min-width: 769px) {
+    .screen-one__block-fetched-user-full-name {
+        padding: 40px 0 0 0;
+        font-size: 2.9em;
+        line-height: 2.3em;
+    }
+    .screen-one__block-greenting {
+        font-size: 2.1em;
+        line-height: 1.2em;
+    }
+    .screen-one__block-find-master {
+        margin: 50px 0;
+        font-size: 2.9em;
+        line-height: 2.9em;
+    }
+    .screen-one__block-customer-type {
+        font-size: 2.1em;
+        line-height: 2em;
+    }
+    .screen-one__block-select {
+        margin: 21px 0 75px;
+    }
+    .screen-one__master {
+        font-size: 1.8em;
+        line-height: 1.8em;
+    }
+    .screen-one__master > div:first-child {
+        margin: 30px 0 0;
+    }
+    .screen-one__master > div:last-child {
+       font-size: 1.28em;
+    }
+ }
+
+.screen-one__button > div {
+    margin: 2px auto;
+}
+
+.screen-one__master {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 88px;
+    height: 13.2vh;
+    width: 100%;
+    background: none;
+    background: #F3F3F3;
+    color: rgb(254, 144, 142);
+}

@@ -1,0 +1,176 @@
+#map {
+    position: relative;
+    /*z-index: 1;*/
+    margin-top: -120px;
+    width: 100vw;
+    height: calc(100vh + 60px);
+    /* height: 100vh; */
+    font-family: Gotham Pro;
+    font-weight: 500;
+    text-align: center;
+
+    scroll-behavior: none !important;
+}
+
+.back {
+    top: 0;
+    position: absolute;
+    background: #dadadd;
+    width: 100vw;
+    height: 280px;
+}
+
+/* #map.ios {
+    /* height: calc(100vh + 97px); *
+    margin-top: -87px;
+} */
+
+/** --- Markers --- **/
+.fetchedUserMarker {
+    background-image: url("./markers/default.svg");
+}
+.pinkMarker,
+.whiteMarker,
+.marker-constructor,
+.master__label-approved {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    color: #000000;
+    font-size: 14px;
+    line-height: 18px;
+    /*background-size: 100%;*/
+    text-decoration: none;
+    text-underline: none;
+}
+.pinkMarker {
+    background-image: url("./markers/pink.svg");
+}
+.whiteMarker {
+    background-image: url("./markers/white.svg");
+}
+
+.pinkMarker,
+.whiteMarker {
+    background-size: 130%;
+}
+.master__label-approved {
+    /*width: 25px;*/
+    /*height: 25px;*/
+
+    background-image: url("./markers/approved.svg");
+    background-size: 100%;
+    position: absolute;
+    /*top: 0;*/
+    /*left: -6.93px;*/
+    width: 43%;
+    height: 43%;
+    top: -6%;
+    left: -13%;
+}
+
+/* MASTER CARD */
+.marker-constructor {
+    display: block;
+    outline: none;
+    position: relative;
+    margin: 5.5% auto;
+    /*margin: 3px auto;*/
+    /*width: 56px;*/
+    /*height: 56px;*/
+    width: 90%;
+    height: 70%;
+    background-size: 160%;
+    border-radius: 50%;
+}
+.master__block-name,
+.master__block-immediately,
+.master__block-service-price {
+    position: relative;
+    box-shadow: 0 4px 30px rgba(211, 225, 242, 0.7);
+    border-radius: 5px;
+    background: #FFFFFF;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 7px 7px 5px 7px;
+    height: 23px;
+    left: 40px;
+}
+
+
+.master__block-name {
+    padding-top: 7px;
+    top: -58px;
+    left: -37px;
+    width: 135px;
+    height: 47px;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 7px;
+}
+.master__block-immediately {
+    width: 63px;
+    top: -46px;
+
+    background: #F5908E;
+    color: #FFFFFF;
+}
+.master__block-service-price {
+    min-width: 79px;
+    top: -40px;
+    color: #F5908E;
+    padding: 7px 0;
+}
+
+.leaflet-control-zoom.leaflet-bar.leaflet-control {
+    margin-left: 3.5vw;
+    /* margin-top: 14rem; */
+    margin-top: 140px;
+}
+
+
+.get-location {
+    position: fixed;
+    z-index: 2000;
+    bottom: 40px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    background-image: url("./markers/default.svg");
+    background-repeat: no-repeat;
+    background-size: 65%
+}
+
+.alert-notification,
+.master__label-approved {
+    position: absolute;
+    top: -6%;
+    left: -13%;
+
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    /*top: 0;*/
+    /*left: -6.93px;*/
+    width: 43%;
+    height: 43%;
+}
+.master__label-approved {
+    /*width: 25px;*/
+    /*height: 25px;*/
+
+    background-image: url("./markers/approved.svg");
+   
+}
+.alert-notification {
+    top: -25%;
+    left: 70%;
+    /* position: absolute;
+    top: 0;
+    right: -10%;
+    height: 25px;
+    width: 25px; */
+    width: 55%;
+    height: 55%;
+    background-image: url("./markers/high-importance.png");
+    /* background-size: 100%; */
+}

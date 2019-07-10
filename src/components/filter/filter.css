@@ -1,0 +1,126 @@
+.filter {
+    width: 93.3vw;
+    padding-bottom: 34px;
+
+    background: #ffffff;
+    /* Тень */
+    box-shadow: 0px 10px 40px rgba(193, 195, 222, 0.25);
+    border-radius: 12px;
+
+}
+
+.filter__row-price  *,
+.filter__row-inputs *,
+.filter__row-sort   *,
+.filter__row-select * {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.filter__row-header {
+    color: rgb(254, 144, 142);
+    padding-top: 25px;
+    font-size: 1.1em;
+}
+
+.filter__row-price {
+    padding-top: 12px;
+    font-size: 1em;
+    padding-bottom: 6px;
+}
+
+.filter__row-inputs input {
+    width: 37.2vw;
+    height: 28px;
+
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 5px;
+
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 62px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/*.filter__row-inputs.ios input {*/
+/*    padding-top: 0px;*/
+/*}*/
+
+.filter__row-inputs input::placeholder {color: #C4C4C4}
+
+
+
+.filter__row-inputs .col-6:last-child {
+    padding-left: 6px;
+}
+
+.filter__row-sort {
+    padding-top: 19px;
+    padding-bottom: 6px;
+}
+
+.filter__row-sort .col-6:last-child {
+    margin-left: -9px;
+}
+.filter__row-select .col-6:last-child {
+    margin-left: -9px;
+}
+
+@media (max-width: 365px) {
+    .filter__row-sort * {
+        font-size: 12px;
+    }
+    .filter__row-sort .col-6:last-child {
+        margin-left: -6px;
+    }
+    .filter__row-select .col-6:last-child {
+        margin-left: -6px;
+    }
+}
+
+.filter__row-select .custom-select {
+    width: 37.2vw;
+    height: 28px;
+    line-height: 21px;
+    margin: 0;
+    padding: 0;
+}
+
+.filter__row-select .custom-select__selected-option {
+    margin: 3.5px 5px 3.5px 15px;
+}
+
+.filter__row-select .custom-select__option {
+    padding: 0px 0 0 15px;
+}
+
+.filter__row-select .custom-select__option:first-child {
+    padding-top: 12px;
+    margin-top: -13px;
+    margin-bottom: 0px
+
+}
+
+.filter__row-select .custom-select__option:last-child {
+    /* padding-top: 15px; */
+    /* margin-top: -13px; */
+    padding-bottom: 6px
+}
+
+.filter__row-select .custom-select__drop-down-button {
+    right: 11px;
+    top: 4px;
+}
+
+.filter__row-select .custom-select__drop-down-button svg {
+    width: 11px;
+    height: 7px;
+}
+
+.filter__row-select .custom-select__drop-down-list {
+    /* Тень */
+    /* box-shadow: 0px 10px 40px rgba(193, 195, 222, 0.25); */
+    border-radius: 12px;
+}

@@ -1,0 +1,52 @@
+.post {
+    position: relative;
+    width: 93.3vw;
+    height: 124px;
+
+    background: none;
+    box-shadow: 0 10px 40px rgba(193, 195, 222, 0.25);
+    border-radius: 12px;
+
+    padding: 18px 17px 26px 21px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 13px;
+
+}
+
+.post__reviews-number {
+    padding-left: 14px;
+    font-size: 0.8em;
+}
+
+.post__reviews-number .col-auto {
+    padding: 0 4px;
+}
+
+.post__master-radius {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+
+    padding-top: 11px;
+    height: 44px;
+    width: 44px;
+
+    background: #F5CED0;
+    border-radius: 50%;
+
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.post .post-card__master-data {
+    width: 50%;
+}
+
+.post .post-card__props {
+    padding-left: 15px
+}

@@ -1,0 +1,51 @@
+.review {
+    width: 295px;
+    /*height: 248px;*/
+
+    padding: 25px 0 10px 13px;
+
+    /*margin-bottom: 20px;*/
+    background: #ffffff;
+    /* Тень */
+    box-shadow: 0px 10px 40px rgba(193, 195, 222, 0.25);
+    border-radius: 12px;
+
+    margin: 0 8.5px;
+
+    box-sizing: border-box;
+}
+.review:last-child {
+    margin-right: 20px;
+}
+
+.review .post-card__master-avatar {
+    margin-top: 5px;
+    margin-right: 0px;
+}
+
+.review .post-card__stars-number {
+    margin-top: 5px;
+    margin-bottom: 9px;
+}
+
+.review .post-card__master-fullName {
+    margin-top: 1px;
+    font-size: 0.99em;
+}
+
+.review .post-card__props {
+    font-size: 0.82em;
+    line-height: 19px;
+    width: 12em;
+    color: #F5908E;
+}
+
+.review__post {
+    padding: 20px 20px 18px 10px;
+
+    font-size: 1.068em;
+    line-height: 1.5em;
+    word-break: break-all;
+    overflow: auto;
+    height: 100px;
+}

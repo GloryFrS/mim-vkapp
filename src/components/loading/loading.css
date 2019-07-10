@@ -1,0 +1,9 @@
+.loading svg {
+    color: #F5908E;
+    position: fixed;
+    top: 0;
+}
+
+.loading {
+    text-align: center
+}

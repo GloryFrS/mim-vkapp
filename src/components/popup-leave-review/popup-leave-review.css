@@ -1,0 +1,86 @@
+.popup-leave-review {
+    font-family: Gotham Pro;
+    color: #000000;
+    margin-bottom: 135px;
+}
+
+.popup-leave-review * {
+    border: none;
+}
+
+.popup-leave-review .modal-dialog,
+.popup-leave-review .modal-content,
+.popup-leave-review .modal-header,
+.popup-leave-review .modal-footer {
+    border-radius: 12px;
+    /*width: 23.5em;*/
+    width: 87.5vw;
+
+}
+
+.popup-leave-review .modal-dialog {
+    background: rgb(255, 255, 255);
+
+    margin: 53px auto 0;
+    height: 560px;
+    z-index: 1060;
+}
+
+.popup-leave-review .modal-header div {
+    text-align: center;
+    width: 16em;
+    margin: 34px auto 2px;
+}
+
+.popup-leave-review__title_header {
+    font-size: 1.73em;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.popup-leave-review__title_name {
+    font-size: 1.28em;
+    line-height: 1.3em;
+    font-weight: 500;
+}
+
+.popup-leave-review .close {
+    position: absolute;
+    right: 16px;
+}
+
+.popup-leave-review__header_stars {
+    margin: 18px 0 8px -4px;
+}
+.popup-leave-review__block_stars {
+    margin: 10px 0 8px -3.5px;
+}
+
+.popup-leave-review .stars__star {
+    margin-right: 11.41px;
+}
+
+.popup-leave-review .stars__star svg {
+    width: 31px;
+    height: 29px;
+}
+.popup-leave-review__block_textarea {
+    margin: 27px auto 8px;
+}
+.popup-leave-review__textarea {
+    width: 78.5vw;
+    height: 108px;
+
+    padding: 15px 15px 15px 25px;
+
+    background: #FFFFFF;
+    /* Тень */
+    box-shadow: 0 10px 40px rgba(193, 195, 222, 0.25);
+    border-radius: 12px;
+    resize: none;
+}
+
+
+
+
+

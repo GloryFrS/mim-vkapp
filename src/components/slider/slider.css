@@ -1,0 +1,11 @@
+.slider {
+    padding: 20px 0px 20px 6px;
+
+    width: 100%;
+    overflow-x: auto;
+}
+
+.slider > div {
+    width: max-content;
+    display: flex;
+}

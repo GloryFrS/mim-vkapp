@@ -1,0 +1,110 @@
+.screen-three {
+    /* min-height: -webkit-fill-available; */
+    /* background: #FFFFFF; */
+    box-sizing: border-box;
+}
+
+
+.screen-three__button {
+    padding-top: 22px;
+    padding-bottom: 30px;
+}
+
+.screen-three__button .button {
+    width: 40.5vw;
+    height: 35px;
+    padding-top: 7px;
+}
+
+.screen-three__button > .row > .col-6:first-child {
+    padding-left: 2.2em;
+}
+
+.screen-three__button > .row > .col-6:last-child {
+    padding-left: 0.25em;
+}
+
+.screen-three__founded-masters {
+    font-weight: 500;
+}
+
+
+.screen-three__founded-masters .col {
+    padding: 18px 0 20px 45px;
+}
+
+.screen-three a {
+    color: #000000;
+}
+
+/* Ставим все выше, так как карта офигела */
+.screen-three .header {
+    z-index: 1090;
+}
+.screen-three .header-navigation .header-navigation__text,
+.screen-three .container.screen-three__button,
+.screen-three .container.filter
+/*.screen-three .container.screen-three__founded-masters*/
+{
+    position: relative;
+    z-index: 1091;
+}
+.screen-three .header-navigation .header-navigation__button {
+    z-index: 1092;
+}
+
+/* .custom-select * {
+    z-index: 2095;
+}
+
+.custom-select, .custom-select__selected-option {
+    z-index: 2098 !important;
+} */
+
+.screen-three .container.screen-three__founded-masters {
+    position: relative;
+    z-index: 1050;
+}
+
+.screen-three .screen-three__founded-masters_map {
+    margin-top: 22px;
+
+    width: 93.3vw;
+    height: 41px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(193, 195, 222, 0.25);
+    border-radius: 5px;
+
+    color: #F5908E;
+}
+
+
+
+.screen-three .screen-three__founded-masters_map .col {
+    padding: 10px 0 20px 0px;
+    text-align: center;
+}
+
+.screen-three__founded-masters_margin-top {
+    top: 60px;
+}
+
+.screen-three__founded-masters_margin-top2 {
+    top: 54px;
+}
+
+@media (max-width: 365px) {
+    .screen-three__button .button {
+        height: 31px;
+        padding-top: 5px;
+    }
+    .screen-three__button > .row > .col-6:first-child {
+        padding-left: 1.8em;
+    }
+    
+    .screen-three__button > .row > .col-6:last-child {
+        padding-left: 0.1em;
+    }
+    
+}

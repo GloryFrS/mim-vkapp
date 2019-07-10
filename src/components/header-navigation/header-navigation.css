@@ -1,0 +1,19 @@
+.header-navigation {
+    padding: 37px 0 21px 41px;
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #ffffff !important;
+}
+
+.header-navigation__button {
+    position: absolute;
+}
+
+.header-navigation__text {
+    margin-left: 48px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+}

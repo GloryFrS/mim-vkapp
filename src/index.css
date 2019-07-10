@@ -1,0 +1,184 @@
+body {
+    /* position: fixed; */
+    
+    margin: 0;
+    padding: 0;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+
+    
+}
+
+
+
+
+/* --- < COLORS > --- */
+.color-white {
+    color: white;
+}
+
+.colors-dark_pink-white {
+    background: rgb(254, 144, 142);
+    color:      rgb(255, 255, 255);
+}
+
+.colors-white-dark_pink {
+    background: rgb(255, 255, 255);
+    color:      rgb(254, 144, 142);
+}
+
+.colors-smoky-dark_pink {
+    background: rgb(243, 243, 243);
+    color:      rgb(254, 144, 142);
+}
+
+.colors-white-black {
+    background: rgb(255, 255, 255);
+    color:      rgb(0, 0, 0);
+}
+
+.colors-light_pink-dark_pink {
+    background: rgb(251, 205, 204);
+    color:      rgb(254, 144, 142);
+}
+
+.colors-very-light_pink-black {
+    background: #FFF6F7;
+    color:      rgb(0, 0, 0);
+}
+
+.loading {
+    height: 80vh;
+    width: 100vw;
+}
+
+/*.modal.fade.show {*/
+/*opacity: 0.99;*/
+/*z-index: 1050;*/
+/*}*/
+
+/*.modal.fade.show * {*/
+/*opacity: 1  !important;*/
+/*z-index: 1080 !important;*/
+/*}*/
+
+
+
+/**
+    background PanelHeader
+ */
+:root {
+   
+
+    /* --header_alternate_background: #F5908E !important;
+    --header_background: #F5908E !important;
+    --header_background_before_blur: #F5908E !important;
+    --header_background_before_blur_alternate: #F5908E !important;
+    --header_search_field_background: #F5908E !important;
+    --header_tab_active_background: #F5908E !important; */
+
+    --header_background: #F5908E !important;
+    --header_background_before_blur_alternate: #F5908E !important;
+    --background_page: #FFFFFF !important;
+}
+
+/* Полоса под PanelHeader */
+.PanelHeader-bg, .PanelHeader-bg::after {
+    background: #F5908E !important;
+}
+
+.View__header, .View__header *:not(button *) {
+    background: #F5908E !important;
+}
+
+.View__header, .View__header * {
+    box-shadow: none !important;
+}
+
+
+/* background: #F5908E !important; */
+ 
+
+/* #view-main, */
+/* .View,
+ .View__header,
+ .View__header-scrolltop,
+ .PanelHeader,
+ .PanelHeader__in,
+
+ .PanelHeader__bg, .PanelHeader-bg::after,
+ .PanelHeader__container, 
+    .PanelHeader__left, .PanelHeader__addon,
+    .PanelHeader__content,
+    .PanelHeader__right
+
+{    background:#F5908E !important;
+    background-color: #F5908E !important;
+} */
+/* .App {
+    overflow-y: auto;
+} */
+
+img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* height: 100vh; */
+    width: 100vw;
+
+    opacity: 0.5;
+}
+
+@media (max-width: 365px) {
+    .PanelHeader *{
+        font-size: 16px;
+    }
+}
+
+* { 
+    scroll-behavior: smooth !important;
+    outline: none !important; 
+    text-decoration: none !important; 
+    font-family: Gotham Pro;
+    -webkit-overflow-scrolling: auto;
+    /* scroll-behavior: smooth !important; */
+    -webkit-overflow-scrolling: touch;
+}
+
+.fixed-up {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.fixed {
+    position: fixed !important;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden !important;
+}
+
+
+.leaflet-bottom.leaflet-right {
+    position: fixed;
+    z-index: 1050;
+}
+
+/* .screen-three, .screen-four {
+    background: #FFFFFF !important;
+} */
+
+/*    .col-	.col-sm-	.col-md-	.col-lg-	.col-xl-    */
+
+/* .App {
+    background: #FFFFFF !important;
+} */
+/* #root, #root * {
+    overflow: hidden;   
+}  */

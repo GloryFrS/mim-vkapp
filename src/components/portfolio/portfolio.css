@@ -1,0 +1,9 @@
+.portfolio {
+    margin: 40px auto 20px;
+    font-size: 1.7em;
+    padding: 3px 0 0 0px;
+}
+
+.portfolio__header {
+    padding-left: 30px;
+}

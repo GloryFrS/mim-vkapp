@@ -1,0 +1,38 @@
+.button {
+    width: 198px;
+    height: 45px;
+
+    background: #F3F3F3;
+    border-radius: 62px;
+
+    font-family: Gotham Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+
+    color: #F5908E;
+
+    padding-top: 12px;
+}
+
+.button_theme_inactive {
+    background: #FBCDCC;
+}
+
+
+@media (max-width: 365px) {
+    .button {
+        width: 168px;
+        height: 36px;
+    
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        padding-top: 8px;
+    }
+    
+    .button_theme_inactive {
+        background: #FBCDCC;
+    }
+}

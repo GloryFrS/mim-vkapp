@@ -1,0 +1,38 @@
+/*.post__reviews-number*/
+.post-card__props {
+    margin: -3px 0 10px -10px;
+}
+
+.post-card {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    /* font-size: 4.6vw; */
+}
+
+.post-card__master-avatar {
+    margin-top: 5px;
+    /*margin-right: 9px;*/
+
+}
+
+.post-card__stars-number {
+    margin: 1px 0 13px -25px;
+}
+
+.post-card__master-fullName {
+    font-weight: 500;
+    margin-left: -27px;
+}
+
+.post-card__master-fullName div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.post-card__master-data {
+    width: 67%;
+}

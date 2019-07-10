@@ -1,0 +1,236 @@
+.popup {
+    position: relative;
+    padding: 45px 18px 55px 16px;
+
+    font-family: Gotham Pro;
+    /* width: 329px; */
+
+    /* width: 329px; */
+    
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+
+
+
+.popup__content {
+    text-align: start !important;
+}
+
+.close {
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    font-size: 30px;
+}
+
+
+.popup__header {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 38px;
+}
+
+.popup__header div:first-child {
+    /* margin-top: 55px; */
+    /* font-size: 6.4vw; */
+    /*font-size: 24px;*/
+}
+
+.popup__header div:last-child {
+    font-size: 18px;
+}
+
+
+
+/* Убираем полосу */
+/* .Alert--ios .Alert__content::after {
+    display: none;
+} */
+
+.popup__body .custom-select {
+    /* width: 295px; */
+}
+
+.popup__header_stars {
+    font-size: 14px;
+    line-height: 14px;
+    margin: 22px 0 11px 26px;
+}
+.popup__block_stars {
+    margin: 0px 0 8px 26px;
+}
+
+.popup .stars__star {
+    margin-right: 11.41px;
+}
+
+.popup .stars__star svg {
+    width: 31px;
+    height: 29px;
+}
+
+.popup__block_textarea {
+    margin: 29px auto 46px;
+    width: 295px;
+}
+.popup__textarea {
+    width: 100%;
+    height: 108px;
+
+    padding: 15px 15px 15px 25px;
+
+    background: #FFFFFF;
+    /* Тень */
+    box-shadow: 0 10px 40px rgba(193, 195, 222, 0.25);
+    border-radius: 12px;
+    resize: none;
+    border: none;
+}
+
+.popup__textarea::placeholder {
+    color: #C4C4C4;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+@media (min-width: 325px) and (max-width: 365px) {
+
+    .popup {
+        padding: 51px 14px 64px 12px;
+        width: 280px;
+    }
+    .close {
+        top: 9px;
+        right: 16px;
+        font-size: 26px;
+    }
+    .popup__header {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 34px;
+    }
+    .popup__header div:last-child {
+        font-size: 14px;
+    }
+    .popup__body .custom-select {
+        /* width: 250px; */
+    }
+    
+    .popup__header_stars {
+        font-size: 10px;
+        line-height: 10px;
+        margin: 18px 0 7px 22px;
+    }
+    .popup__block_stars {
+        margin: 0px 0 4px 22px;
+    }
+    
+    .popup .stars__star {
+        margin-right: 7.41px;
+    }
+    .popup .stars__star svg {
+        width: 27px;
+        height: 25px;
+    }
+    
+    .popup__block_textarea {
+        margin: 25px auto 42px;
+        width: 250px;;
+    }
+    .popup__textarea {
+        height: 104px;
+        padding: 11px 11px 11px 21px;
+    }
+}
+
+
+
+.popup__footer > div {
+    margin: 0 auto;
+}
+
+
+/* .PopoutWrapper {
+    overflow-y: auto;
+}
+
+.PopoutWrapper__container {
+    margin: 30px 0 10px;
+} */
+
+/* .View__popout, .View__popout * {
+    /* overflow-y: auto !important;
+} */
+
+
+
+@media (max-width: 325px) {
+    .popup {
+        padding: 40px 14px 50px 12px;
+    }
+    .close {
+        top: 5px;
+        right: 12px;
+        font-size: 22px;
+    }
+    .popup__header {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 26px;
+    }
+    .popup__header div:last-child {
+        font-size: 13px;
+    }
+    .popup__header_stars {
+        font-size: 10px;
+        line-height: 10px;
+        margin: 18px 0 5px 22px;
+    }
+    .popup__block_stars {
+        margin: 0px 0 0px 22px;
+    }
+    
+    .popup .stars__star {
+        margin-right: 5.41px;
+    }
+    .popup .stars__star svg {
+        width: 25px;
+        height: 23px;
+    }
+    
+    .popup__block_textarea {
+        margin: 21px auto 36px;
+        width: 250px;
+    }
+    .popup__textarea {
+        height: 95px;
+        padding: 11px 11px 11px 21px;
+    }
+}
+
+
+.alert {
+    width: 300px;
+    height: 200px;
+    background: white;
+    box-sizing: border-box;
+}
+
+.alert__header {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.alert__body {
+    text-align: center;
+    margin-top: 20px;
+}
+.alert__footer {
+    text-align: center
+}

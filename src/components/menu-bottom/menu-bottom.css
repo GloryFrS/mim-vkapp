@@ -1,0 +1,35 @@
+.menu-bottom {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100vw;
+    height: 70px;
+    /* max-height: 90px; */
+
+    background: rgb(245, 144, 142);
+    box-shadow: 0px -5px 40px rgba(180, 181, 213, 0.3);
+    border-radius: 29px 29px 0 0;
+
+    /*padding: 30px 40px 0 6em;*/
+    /*padding: 2.15em 0 0 22.28vw;*/
+}
+
+
+
+.menu-bottom > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu-bottom__telephone {
+    /*margin-right: 2.8em;*/
+    margin-right: 10.5vw;
+}
+.menu-bottom__message {
+    /*margin-right: 2.8em;*/
+    margin-right: 10.5vw;
+}

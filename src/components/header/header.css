@@ -1,0 +1,19 @@
+.header {
+    position: absolute;
+    z-index: 0;
+    top: -35px;
+    left: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* viewBox="0 0 376.5 265" */
+
+.header__header-ellipse {
+    background: #F5908E;
+    border-radius: 150vh/60vh;
+    height: calc(30vh + 250px);
+    width: 150vw;
+    margin-left: -25vw;
+    margin-top: -30vh;
+}

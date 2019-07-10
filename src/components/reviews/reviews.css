@@ -1,0 +1,14 @@
+.reviews {
+    margin: 26px auto 0;
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
+
+.reviews__header {
+    padding-left: 30px;
+    font-size: 1.73em;
+}
+
+.reviews__header_no-reviews {
+    margin-bottom: 40px;
+}
