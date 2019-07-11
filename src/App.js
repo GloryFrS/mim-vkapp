@@ -53,7 +53,7 @@ class App extends Component {
             searchFilterSortType2: API.searchFilters.sortType2,
 
             // карта или список
-            currentTab:        1,
+            currentTab:        2,
             // число скролла
             tab1scroll:        0,
 
@@ -287,9 +287,9 @@ class App extends Component {
                 
                 }
 
-                if (this.state.currentTab === 2) {
-                    this.setState({currentTab: 1});
-                }
+                // if (this.state.currentTab === 2) {
+                //     this.setState({currentTab: 1});
+                // }
 
                 break;
 

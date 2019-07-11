@@ -1,9 +1,9 @@
 import React from "react";
 import L from 'leaflet';
-import './leaflet-map.css';
 import 'leaflet.markercluster';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
-import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
+import './leaflet-map.css';
+
 
 
 
@@ -30,7 +30,7 @@ class Map extends React.Component {
 
     componentDidMount() {
         if (this.props.fetchedUser) {
-            let zoom = 0;
+            // let zoom = 0;
 
             this.map = LeafletAPI.createMap(this.props.fetchedUser.coordinates, this.state.zoom );
             

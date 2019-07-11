@@ -13,6 +13,7 @@ const tileLayerDefault = [
 
 
 const fetchedUserMarker = (fetchedUser) => {
+    
     return L.marker(
         fetchedUser.coordinates,
         { icon:
@@ -96,6 +97,7 @@ target="_self"
 rel="noopener noreferrer"
  */
 
+
 function createMap ( coordinates, zoom ) {
     let coordinatesN = coordinates;
     let zm = zoom;
@@ -125,6 +127,9 @@ function createMap ( coordinates, zoom ) {
         ]
     });
 }
+
+
+
  // L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
             //     attribution:
             //         '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
