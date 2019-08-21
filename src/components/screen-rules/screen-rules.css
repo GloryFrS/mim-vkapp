@@ -1,0 +1,35 @@
+.button {
+    display: block;
+}
+a:hover{
+    color: #F5908E;
+}
+.rules-link {
+    color: #ffffff;
+    text-decoration: underline!important
+}
+.rules-link:hover {
+    color: #ffffff
+}
+
+@media (max-width: 330.98px) {
+    .screen-one__block-find-master {
+        margin: 15px 0;
+        font-size: 19px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 375.98px) and (min-width: 331px){
+    .screen-one__block-find-master {
+        margin: 20px 0;
+        font-size: 22.3px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 514.98px) and (min-width: 376px){
+    .screen-one__block-find-master {
+        margin: 20px 0;
+        font-size: 1.55em;
+        line-height: 1.4em;
+    }
+}

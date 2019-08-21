@@ -1,7 +1,7 @@
 import connect from '@vkontakte/vkui-connect';
 
 // Заглушка
-// import getFakeData from './fake-data';
+import getFakeData from './fake-data';
 
 /**
  *  Подписка на ответы ВК
@@ -9,20 +9,20 @@ import connect from '@vkontakte/vkui-connect';
 
 function subscribe (callback, type, err) {
     // Заглушка ---------------------------------------------------------------------
-    // if (type === 'VKWebAppGetUserInfoResult')  {
-    //     console.log('1. fetchedUser', getFakeData.fetchedUserOk.data);
-    //      callback(getFakeData.fetchedUserOk.data);
-    // }
+    if (type === 'VKWebAppGetUserInfoResult')  {
+        console.log('1. fetchedUser', getFakeData.fetchedUserOk.data);
+         callback(getFakeData.fetchedUserOk.data);
+    }
 
-    // if (err === 'VKWebAppGeodataFailed') {
-    //     // callback(getFakeData.coordinatesOk.data);
-    //      callback ({
-    //         "lat": "55.75",
-    //         "long": "37.6167"
-    //         // "lat": "55.043801106859036",
-    //         // "long": "82.95130920829251"
-    //     })
-    // }
+    if (err === 'VKWebAppGeodataFailed') {
+        // callback(getFakeData.coordinatesOk.data);
+         callback ({
+            "lat": "55.75",
+            "long": "37.6167"
+            // "lat": "55.043801106859036",
+            // "long": "82.95130920829251"
+        })
+    }
     // Заглушка ---------------------------------------------------------------------
 
     // тут я ловлю события и отправляю соответсвубщие коллбэки

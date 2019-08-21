@@ -16,6 +16,8 @@ import ScreenThree  from "./components/screen-3/screen-three";
 import ScreenFour   from "./components/screen-4/screen-four";
 // Страница Загрузки
 import loading      from "./components/loading/loading";
+// страница правил
+import ScreenRules from "./components/screen-rules/screen-rules"
 
 import API from './API/API';
 // Нужна для определения платформы
@@ -424,7 +426,17 @@ class App extends Component {
                                    }
                             />
                         </Panel>
+                        <Panel id="/screen-rules">
+                            <Route exact path='/screen-rules'
+                                   render={ props =>
+                                       <ScreenRules
+                                           osname              = {osname}
+                                           go                  = {this.go}
 
+                                       />
+                                   }
+                            />
+                        </Panel>
                         <Panel id="/screen-2">
                             <Route exact path='/screen-2'
                                    render={ props =>

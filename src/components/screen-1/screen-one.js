@@ -95,12 +95,8 @@ class ScreenOne extends Component {
                 </div>
 
 
-                <a
-                    className="Screen-one-link"
-                    href="https://vk.com/write-160192690"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
+                
+                <Link to={`/screen-rules`} onClick={this.props.go}  data-to="/screen-rules" >
                     <div className="screen-one__master">
                         <div className="row screen-one__master_block-first">
                             <div className="col">
@@ -114,7 +110,7 @@ class ScreenOne extends Component {
                             </div>
                         </div>
                     </div>
-                </a>
+                </Link>
             </div>
         );
     }
