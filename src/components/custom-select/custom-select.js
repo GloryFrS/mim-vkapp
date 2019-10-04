@@ -71,7 +71,7 @@ class CustomSelect extends Component {
                 <div className='custom-select__selected-option'>
                     {this.state.select.selected_option.label}
                 </div>
-                <div className="custom-select__drop-down-button">
+                <div onClick={() => console.log('1')} className="custom-select__drop-down-button">
                     {dropdownButton}
                 </div>
 
@@ -110,7 +110,7 @@ class CustomSelect extends Component {
         console.log(e.target.className)
         if (e) e.stopPropagation();
 
-        if (e.target.className !== 'custom-select__selected-option' && e.target.className !== 'custom-select__option') {
+        if (e.target.className !== 'custom-select__selected-option' && e.target.className !== 'custom-select__drop-down-button' && e.target.className !== 'custom-select__option') {
             window.document.removeEventListener("click", this.compareClassName);
             this.toggleDropDownList();
         }

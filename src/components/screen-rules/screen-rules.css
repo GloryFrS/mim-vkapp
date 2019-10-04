@@ -11,6 +11,14 @@ a:hover{
 .rules-link:hover {
     color: #ffffff
 }
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    padding: 0!important;
+}
 
 @media (max-width: 330.98px) {
     .screen-one__block-find-master {
@@ -31,5 +39,17 @@ a:hover{
         margin: 20px 0;
         font-size: 1.55em;
         line-height: 1.4em;
+    }
+}
+@media (max-width: 514.98px) and (min-width: 376px){
+    .screen-one__block-fetched-user-full-name {
+        font-size: 1.58em;
+        line-height: 1.5em;
+    }
+}
+@media (max-width: 330.98px) {
+    .screen-one__block-fetched-user-full-name {
+        font-size: 19px;
+        line-height: 20px;
     }
 }

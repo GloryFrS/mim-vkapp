@@ -42,7 +42,8 @@ const reg  = (id) => {
 
             // если ошибка и пришел статус ее
             if (response.data.hasOwnProperty('status')) {
-                alert(response.data.status)
+                // alert(response.data.status)
+
             }
 
         })

@@ -46,7 +46,9 @@ function subscribe (callback, type, err) {
                 break;
 
             case 'VKWebAppSetViewSettingsFailed':
-                alert ("VKWebAppSetViewSettingsFailed " + e.detail.data.error_data);
+                // alert ("VKWebAppSetViewSettingsFailed " + e.detail.data.error_data);
+                console.log(e.detail.data.error_data);
+                
                 // if (err === e.detail.type) callback (e.detail.data);
                 break;
 

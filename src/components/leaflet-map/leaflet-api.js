@@ -42,7 +42,6 @@ const fetchedUserCircle = (fetchedUser, radius) => {
  * Master Card
  */
 const masterMarkerDefault = (master, iconSize, go) => {
-
     return L.marker(
         master.coordinates,
         { icon:

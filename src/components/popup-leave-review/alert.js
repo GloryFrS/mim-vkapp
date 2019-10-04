@@ -14,7 +14,7 @@ const Alert = (props) => {
             </button>
 
             <div className="alert__header">
-                <span>Отзыв не отправлен..</span>
+                <span>Отзыв не отправлен...</span>
             </div>
 
             <div className="alert__body">

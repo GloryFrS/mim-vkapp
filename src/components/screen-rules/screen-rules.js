@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import {PanelHeader} from "@vkontakte/vkui";
-
+import {PanelHeader, HeaderButton} from '@vkontakte/vkui';
+import Button from "../button/button";
 import './screen-rules.css';
 
 import API from "../../API/API";
+import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 
 
 
@@ -24,7 +25,12 @@ class ScreenRules extends Component {
             <div className="container-fluid screen-one fixed-up">
                 <div className="screen-one-background"/>
 
-                <PanelHeader className="header-background" />
+                <PanelHeader left={
+                    <HeaderButton onClick={()=>window.history.back()}>
+                        <Icon28ChevronBack/>
+                    </HeaderButton>
+                }>
+                </PanelHeader>
 
                 <div className="row screen-one__block-fetched-user-full-name">
                     <div className="col">
@@ -61,9 +67,10 @@ class ScreenRules extends Component {
                     </div>
                 </div>
 
-                <div className="row screen-one__block-select">
-                    <div className="col">
-                        
+                <div className="row screen-two__button">
+                    <div className="col-auto">
+                        <br/>
+                        <button className="button" onClick={()=>window.history.back()}>Назад</button>
                     </div>
                 </div>
 

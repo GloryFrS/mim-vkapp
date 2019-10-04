@@ -17,6 +17,9 @@
 .review:last-child {
     margin-right: 20px;
 }
+.review__post span {
+    word-break: break-word;
+}
 
 .review .post-card__master-avatar {
     margin-top: 5px;
